@@ -1,4 +1,4 @@
-    import json
+import json
 import requests
 import boto3
 from botocore.exceptions import NoCredentialsError
@@ -71,7 +71,8 @@ def main():
             # Bucket - Bucket to upload to (the top level directory under AWS S3)
             # Key - S3 object name (can contain subdirectories). If not specified then file_name is used
             s3.meta.client.upload_file(Filename = downloaded_file,
-                                       Bucket='sowmyanewproj', Key='output2.jpeg')
+                                       Bucket='sowmyanewproj',
+                                       Key = downloaded_file)
 
             # Remove the local file after uploading
             os.remove(downloaded_file)
