@@ -5,6 +5,12 @@
       "title": "Sunset over the mountains",
       "url": "https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg",
       "description": "A beautiful sunset over the mountains with orange and pink hues."
+    },
+    {
+      "id": 1,
+      "title": "Forest path",
+      "url": "https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg",
+      "description": "A beautiful sunset over the mountains with orange and pink hues."
     }
   ]
 }
